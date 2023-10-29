@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7e1b389372.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="game-2/style.css">
+    <title>Jogo de inglês</title>
+</head>
+<body>
+    <header class="home-btn">
+        <a href="index.html"><st>&lt</st>Sair</a>
+    </header>
+    
+    <!-- Botão para começar o jogo -->
+    <div class="start_btn"><button>INICIAR JOGO</button></div>
+
+    <!-- Regras para o jogo -->
+    <div class="info_box">
+        <div class="info-title"><span>REGRAS DO JOGO</span></div>
+        <div class="info-list">
+            <div class="info">1. Você terá apenas <span>15 segundos</span> para cada questão.</div>
+            <div class="info">2. Depois de selecionar sua resposta, ela não poderá ser desfeita.</div>
+            <div class="info">3. Você não pode selecionar nenhuma opção depois que o tempo acabar.</div>
+            <div class="info">4. Você receberá pontos com base em suas respostas corretas.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">SAIR DO JOGO</button>
+            <button class="restart">CONTINUAR</button>
+        </div>
+    </div>
+
+    <!-- jogo box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Qual é?</div>
+            <div class="timer">
+                <div class="time_left_txt">Tempo</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Aqui eu inseri uma pergunta do JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- Aqui inseri opções de JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="total_que">
+                <!-- Aqui eu inseri o número de contagem de perguntas do JavaScript -->
+            </div>
+            <button class="next_btn">PRÓXIMO</button>
+        </footer>
+    </div>
+
+    <!-- Resultado Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Você completou o jogo!</div>
+        <div class="score_text">
+            <!-- Aqui eu inseri o resultado da pontuação do JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">JOGAR NOVAMENTE</button>
+            <button class="quit">SAIR</button>
+        </div>
+    </div>
+
+    <!-- Dentro deste arquivo JavaScript inseri apenas perguntas e opções -->
+    <script src="game-2/js/questions.js"></script>
+
+    <!-- Dentro deste arquivo JavaScript eu coloquei todos os códigos do javaScript -->
+    <script src="game-2/js/script.js"></script>
+
+</body>
+</html>
+</html>
